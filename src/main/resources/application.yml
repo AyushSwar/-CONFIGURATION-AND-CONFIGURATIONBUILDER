@@ -1,0 +1,22 @@
+micronaut:
+  application:
+    name: conf-ConfBuilder
+team:
+  name: 'Hamro-Patro'
+  color: 'Red'
+  player-names:
+    - 'Aayush Jng Swar'
+    - 'Aayush'
+
+  team-admin:
+    manager: 'leo' # <1>
+    coach: 'Mike '
+    president: 'Dan '
+
+stadium:
+  coors: # <1>
+    city: 'Denver'
+    size: 50000
+  pnc:
+    city: 'Pittsburgh'
+    size: 35000
